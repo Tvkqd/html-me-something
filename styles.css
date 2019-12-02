@@ -1,34 +1,44 @@
 body {
-    font : 9pt Arial, Helvetica, sans-serif;
+    font : 11pt Arial, Helvetica, sans-serif;
     color : #000000;
-    background : url(bg.gif) left top repeat fixed #00004A;
     margin : 0;
+    widows: 1500px;
+    margin: 20px;
+    background: url(hoaroi.gif)
 }
 
 p {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
+
 div {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }  
+
+.list-style {
+    list-style-image: url(mini.jpg);
+}
+
+
 
 .page-wrapper {
     display : block;
     position : relative;
     width : 700px;
     margin : 0 auto;
-    background : url(bgend.jpg) left bottom no-repeat #FFFFFF;
     padding-bottom : 20px;
 }
 
-.preamble {
-    background : url(preamble.jpg) left top no-repeat;
+#hoamai {
+    text-align: center;
+    background : url(hoamai.png) left top no-repeat;
     padding : 74px 10px 5px 10px;
-    }
+}
+
