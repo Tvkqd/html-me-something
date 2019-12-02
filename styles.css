@@ -1,0 +1,34 @@
+body {
+    font : 9pt Arial, Helvetica, sans-serif;
+    color : #000000;
+    background : url(bg.gif) left top repeat fixed #00004A;
+    margin : 0;
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}  
+
+.page-wrapper {
+    display : block;
+    position : relative;
+    width : 700px;
+    margin : 0 auto;
+    background : url(bgend.jpg) left bottom no-repeat #FFFFFF;
+    padding-bottom : 20px;
+}
+
+.preamble {
+    background : url(preamble.jpg) left top no-repeat;
+    padding : 74px 10px 5px 10px;
+    }
